@@ -1,0 +1,20 @@
+package DSAcoders;
+
+public class problem2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int t1=45;
+		int t2=45;
+		int t3=45;
+
+		int sum=t1+t2+t3;
+		if(sum==180) {
+			System.out.println("triangle can be formed");
+		}
+		else {
+			System.out.println("triangle cannot be formed");
+		}
+	}
+
+}
